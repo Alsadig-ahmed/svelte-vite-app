@@ -1,1 +1,1 @@
-svelte app with vite
+svelte app with vite + svelte-spa-router
