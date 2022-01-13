@@ -9,4 +9,8 @@
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
+/* 
+  @layer components {
+  .d {@apply bg-blue-500 text-white font-semibold; }
+} */
 </style>
