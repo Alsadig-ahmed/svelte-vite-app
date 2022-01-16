@@ -1,3 +1,8 @@
+<script>
+
+import Skills from "./skills.svelte";
+
+</script>
 <section class="grid">
     <div class="mx-4 col-span-2 md:col-span-1 ml-7">
       <h2 class="font-semibold text-center text-lg">top skills</h2>
@@ -6,18 +11,7 @@
         tempora
         <a href="resume.pdf" download target="_blank" rel="noopener noreferrer"> donwload resume </a>
       </p>
-      <div class="skills bg-slate-300 m-2 p-2 rounded-lg grid">
-        <ul>
-          <li>html/css</li>
-          <li>sass/postcss</li>
-          <li>tailwind/bootstrap</li>
-        </ul>
-        <ul>
-          <li>javascript</li>
-          <li>react</li>
-          <li>nodejs/express</li>
-        </ul>
-      </div>
+<Skills />
     </div>
     <div class="mx-4 col-span-2 md:col-span-1 mr-7">
       <img class="w-2/5 mx-auto mb-4" src="./images/me.JPG" alt="" />
